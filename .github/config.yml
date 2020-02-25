@@ -8,13 +8,17 @@ newIssueWelcomeComment: |
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: |
-  💖 Thanks for opening this pull request! 💖
+  💖 Thanks for opening your first pull request! 💖
 
-  Please make sure you read our [Contributing Guide](https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md) and abide by our [Code of Conduct](https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md).
+  Please make sure you read the following:
+
+  * [Authorship Guidelines](https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md): Our rules for giving you credit for your contributions, including authorship on publications and [Zenodo](https://zenodo.org/communities/fatiando) archives.
+  * [Contributing Guide](https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md): What the review process is like and our infrastructure for testing and documentation.
+  * [Code of Conduct](https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md): How we expect people to interact in our projects.
 
   A few things to keep in mind:
 
-  * Remember to run ``make format`` to make sure your code follows our style guide.
+  * Remember to run `make format` to make sure your code follows our style guide.
   * If you need help writing tests, take a look at the existing ones for inspiration. If you don't know where to start, let us know and we'll walk you through it.
   * All new features should be documented. It helps to write the docstrings for your functions/classes before writing the code. This will help you think about your code design and results in better code.
   * No matter what, we are really grateful that you put in the effort to do this! ⭐
@@ -23,4 +27,6 @@ newPRWelcomeComment: |
 firstPRMergeComment: |
   🎉🎉🎉 Congrats on merging your first pull request and welcome to the team! 🎉🎉🎉
 
-  Please open a new pull request to add yourself to the `AUTHORS.md` file. We hope that this was a good experience for you. Let us know if there is any way that the contributing process could be improved.
+  **If you would like to be added as a author** on the [Zenodo](https://zenodo.org/communities/fatiando) archive of the next release, make sure that you have added your full name, affiliation, and ORCID (optional) to the `AUTHORS.md` file of this repository.
+
+  We hope that this was a good experience for you. Let us know if there is any way that the contributing process could be improved.
