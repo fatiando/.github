@@ -8,7 +8,7 @@ about: "Maintainers only: Checklist for making a new release"
 |:------------------|:-----------------------|
 |**Version number** | vX.Y.Z                 |
 |**Target date**    | YYYY/MM/DD             | 
-|**Zenodo DOI**     | 10.5281/zenodo.4617252 |
+|**Zenodo DOI**     | 10.5281/zenodo.XXXXXXX |
 
 ## Draft a Zenodo archive (to be done by a manager on Zenodo)
 
