@@ -34,6 +34,7 @@ about: "Maintainers only: Checklist for making a new release"
 - [ ] Make a Markdown copy of the changelog: `pandoc -s changes.rst -o changes.md --wrap=none`
 - [ ] Add a link to the new release version documentation in `README.rst`
 - [ ] Open a PR to update the changelog
+- [ ] Merge the PR
 
 ## Make a release
 
