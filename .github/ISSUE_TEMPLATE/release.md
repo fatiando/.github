@@ -17,6 +17,7 @@ about: "Maintainers only: Checklist for making a new release"
 - [ ] Delete all existing files
 - [ ] Copy the reserved DOI to this issue
 - [ ] Update release date
+- [ ] Update version number (following Semantic Versioning) with a leading `v` (`v1.5.7`)
 - [ ] Add as authors any new contributors who have added themselves to `AUTHORS.md`
 - [ ] Review author order to make sure it follows the guidelines on our Authorship Guide
 - [ ] Save the release draft
