@@ -1,10 +1,5 @@
 # Configuration for welcome bot - https://github.com/behaviorbot/welcome
 ########################################################################################
-# Comment to be posted to on first time issues
-newIssueWelcomeComment: |
-  👋 Thanks for opening your first issue here! **Please make sure you filled out the template with as much detail as possible.**
-
-  You might also want to take a look at our [Contributing Guide](https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md).
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: |
@@ -12,9 +7,8 @@ newPRWelcomeComment: |
 
   Please make sure you read the following:
 
-  * [Authorship Guidelines](https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md): Our rules for giving you credit for your contributions, including authorship on publications and [Zenodo](https://zenodo.org/communities/fatiando) archives.
-  * [Contributing Guide](https://github.com/fatiando/contributing/blob/master/CONTRIBUTING.md): What the review process is like and our infrastructure for testing and documentation.
-  * [Code of Conduct](https://github.com/fatiando/contributing/blob/master/CODE_OF_CONDUCT.md): How we expect people to interact in our projects.
+  * [Authorship Guidelines](https://github.com/fatiando/community/blob/main/AUTHORSHIP.md): Our rules for giving you credit for your contributions, including authorship on publications and [Zenodo](https://zenodo.org/communities/fatiando) archives.
+  * [Code of Conduct](https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md): How we expect people to interact in our projects.
 
   A few things to keep in mind:
 
