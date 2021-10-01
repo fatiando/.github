@@ -1,11 +1,13 @@
 ---
 name: Bug report
 about: Report a problem/bug to help us improve
+title: ''
+labels: bug
+assignees: ''
 
 ---
 
-**Description of the problem**
-
+**Description of the problem:**
 <!--
 Please be as detailed as you can when describing an issue. The more information
 we have, the easier it will be for us to track this down.
@@ -14,7 +16,6 @@ we have, the easier it will be for us to track this down.
 
 
 **Full code that generated the error**
-
 <!--
 Include any data files or inputs required to run the code. It really helps if
 we can run the code on our own machines.
@@ -42,7 +43,7 @@ PASTE ERROR MESSAGE HERE
 * If using conda, paste the output of `conda list` below:
 
 <details>
-<summary>output of conda list</summary>
+<summary>Output of conda list</summary>
 <pre>
 
 PASTE OUTPUT OF CONDA LIST HERE
