@@ -1,19 +1,22 @@
 ---
-name: Release Checklist
-about: "Maintainers only: Checklist for making a new release"
+name: Release checklist
+about: 'Maintainers only: Checklist for making a new release'
+title: 'Release vX.Y.Z'
+labels: ''
+assignees: ''
 
 ---
 
 |                   |          Info          |
 |:------------------|:-----------------------|
 |**Version number** | vX.Y.Z                 |
-|**Target date**    | YYYY/MM/DD             | 
+|**Target date**    | YYYY/MM/DD             |
 |**Zenodo DOI**     | 10.5281/zenodo.XXXXXXX |
 
 ## Draft a Zenodo archive (to be done by a manager on Zenodo)
 
 - [ ] Go to the Zenodo entry for this project (find the link to the latest Zenodo release on the `README.md` file)
-- [ ] Create a "New version" of it. 
+- [ ] Create a "New version" of it.
 - [ ] Delete all existing files
 - [ ] Copy the reserved DOI to this issue
 - [ ] Update release date
