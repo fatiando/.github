@@ -36,6 +36,7 @@ assignees: ''
 - [ ] Copy the changes to `doc/changes.rst`
 - [ ] Make a Markdown copy of the changelog: `pandoc -s changes.rst -o changes.md --wrap=none`
 - [ ] Add a link to the new release version documentation in `README.rst`
+- [ ] Build and serve the docs locally with `make -C doc all serve` to check if the changelog looks well
 - [ ] Open a PR to update the changelog
 - [ ] Merge the PR
 
