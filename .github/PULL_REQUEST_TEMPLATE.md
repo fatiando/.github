@@ -1,18 +1,19 @@
 <!--
-Please describe changes proposed and WHY you made them. If fixing an issue,
-include the text "Fixes #XXX" (replace XXX by the issue number. GitHub will
-automatically close it when this gets merged.
+Thank you for contributing a pull request! Please ensure you have taken a look 
+at the CONTRIBUTING.md file in this repository (if available) and the general 
+guidelines at https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
+-->
+**Description**
+<!--
+Please describe changes proposed and WHY you made them.
 -->
 
 
 
-
-
-**Reminders**:
-
-- [ ] Run `make format` and `make check` to make sure the code follows the style guide.
-- [ ] Add tests for new features or tests that would have caught the bug that you're fixing.
-- [ ] Add new public functions/methods/classes to `doc/api/index.rst` and the base `__init__.py` file for the package.
-- [ ] Write detailed docstrings for all functions/classes/methods. It often helps to design better code if you write the docstrings first.
-- [ ] If adding new functionality, add an example to the docstring, gallery, and/or tutorials.
-- [ ] Add your full name, affiliation, and [ORCID](https://orcid.org) (optional) to the `AUTHORS.md` file (if you haven't already) in case you'd like to be listed as an author on the [Zenodo](https://zenodo.org/communities/fatiando) archive of the next release.
+**Relevant issues/PRs**
+<!--
+Link to relevant issues/PRs. Example: "Fixes #1234" or "See also #345"
+Use keywords (e.g., Fixes, Closes) to create the links and automatically
+close issues when this PR is merged. 
+See https://github.com/blog/1506-closing-issues-via-pull-requests
+-->
