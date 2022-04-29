@@ -7,11 +7,10 @@ assignees: ''
 
 ---
 
-|                   |          Info          |
-|:------------------|:-----------------------|
-|**Version number** | vX.Y.Z                 |
-|**Target date**    | YYYY/MM/DD             |
-|**Zenodo DOI**     | 10.5281/zenodo.XXXXXXX |
+**Zenodo DOI:**
+
+<!-- Optional -->
+**Target date:** YYYY/MM/DD
 
 ## Draft a Zenodo archive (to be done by a manager on Zenodo)
 
@@ -20,9 +19,9 @@ assignees: ''
 - [ ] Delete all existing files
 - [ ] Copy the reserved DOI to this issue
 - [ ] Update release date
-- [ ] Update version number (following Semantic Versioning) with a leading `v` (`v1.5.7`)
-- [ ] Add as authors any new contributors who have added themselves to `AUTHORS.md`
-- [ ] Review author order to make sure it follows the guidelines on our Authorship Guide
+- [ ] Update version number (make sure there is a leading `v`, like `v1.5.7`)
+- [ ] Add as authors any new contributors who have added themselves to `AUTHORS.md` in the same order
+- [ ] Ensure that the first author is "Fatiando a Terra Project" and others are listed alphabetically by last name
 - [ ] Save the release draft
 
 ## Update the changelog
