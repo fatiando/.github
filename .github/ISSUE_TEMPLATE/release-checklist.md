@@ -34,7 +34,7 @@ assignees: ''
 - [ ] Replace the PR numbers with links: ``sed --in-place "s,#\([0-9]\+\),\`#\1 <https://github.com/fatiando/PROJECT/pull/\1>\`__,g" changes.rst``
 - [ ] Copy the changes to `doc/changes.rst`
 - [ ] Make a Markdown copy of the changelog: `pandoc -s changes.rst -o changes.md --wrap=none`
-- [ ] Add a link to the new release version documentation in `README.rst`
+- [ ] Add a link to the new release version documentation in `README.rst` and `doc/versions.rst` (if the file exists).
 - [ ] Build and serve the docs locally with `make -C doc all serve` to check if the changelog looks well
 - [ ] Open a PR to update the changelog
 - [ ] Merge the PR
