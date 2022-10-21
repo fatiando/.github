@@ -26,6 +26,9 @@ All of our code is **free and open-source**, distributed under the permissive
 General purpose:
 
 - [**Pooch**](https://github.com/fatiando/pooch): A friend to fetch your data files. 
+
+Geospatial data (including geophysical/geodetic data):
+
 - [**Verde**](https://github.com/fatiando/verde): Spatial data processing and interpolation with a sprinkling of machine learning.
 
 Geophysics:
