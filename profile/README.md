@@ -36,6 +36,7 @@ Geophysics:
 - [**Harmonica**](https://github.com/fatiando/harmonica): Forward modeling, inversion, and processing gravity and magnetic data.
 - [**Boule**](https://github.com/fatiando/boule): Reference ellipsoids and normal gravity for geodesy and geophysics.
 - [**Ensaio**](https://github.com/fatiando/ensaio): Practice datasets to probe your code.
+- [**Choclo**](https://github.com/fatiando/choclo): High-prerformance kernel functions for geophysical forward modeling. 
 
 For developers:
 
