@@ -20,6 +20,7 @@ assignees: ''
 - [ ] Copy the reserved DOI to this issue
 - [ ] Update release date
 - [ ] Update version number (make sure there is a leading `v`, like `v1.5.7`)
+- [ ] Update version number in Title (use a leading `v` as well)
 - [ ] Add as authors any new contributors who have added themselves to `AUTHORS.md` in the same order
 - [ ] Ensure that the first author is "Fatiando a Terra Project" and others are listed alphabetically by last name
 - [ ] Save the release draft
