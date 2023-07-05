@@ -30,7 +30,13 @@ assignees: ''
 - [ ] Generate a list of commits between the last release tag and now: `git log HEAD...v1.2.3 > changes.rst`
 - [ ] Edit the list to remove any trivial changes (updates by the bot, CI updates, etc).
 - [ ] Organize the list into categories (breaking changes, deprecations, bug fixes, new features, maintenance, documentation).
-- [ ] Add a list of people who contributed to the release: `git shortlog HEAD...v1.2.3 -sne`
+- [ ] Add a list of people who contributed to the release:
+  ```bash
+  export last_release="v1.2.3"
+  git shortlog HEAD...$last_release -sne > contributors
+  git log HEAD...$last_release | grep "Co-authored-by" | sed 's/Co-authored-by://' | sed 's/^[[:space:]]*/ /' | sort | uniq -c | sort -nr | sed 's/^ //' >> contributors
+  sort -rn contributors
+  ```
 - [ ] Add the release date and Zenodo DOI badge to the top
 - [ ] Replace the PR numbers with links: ``sed --in-place "s,#\([0-9]\+\),\`#\1 <https://github.com/fatiando/PROJECT/pull/\1>\`__,g" changes.rst``
 - [ ] Check that you changed the ``PROJECT`` placeholder when running the last command.
