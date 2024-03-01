@@ -41,3 +41,4 @@ Geophysics:
 For developers:
 
 - [Dependente](https://github.com/fatiando/dependente): Inspect Python package dependencies (used in our CI workflows).
+- [Burocrata](https://github.com/fatiando/burocrata): Check and insert copyright and license notices into source code.
