@@ -1,3 +1,4 @@
+<img src="https://raw.githubusercontent.com/fatiando/logo/9b86b883805fd70f684eee9a14a6c71ce144245d/banner/fatiando-banner-logo-only.png" alt="Starry dark sky with a drawing of the Earth with a quarter of it cut out and lifted showing the inner layers">
 <div align="center">
 <h1>Welcome to the Fatiando a Terra project!</h1>
 
