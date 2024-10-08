@@ -16,18 +16,18 @@ assignees: ''
 
 - [ ] Go to the Zenodo entry for this project (find the link to the latest Zenodo release on the `README.md` file)
 - [ ] Create a "New version" of it.
-- [ ] Delete all existing files
-- [ ] Copy the reserved DOI to this issue
+- [ ] Get a new DOI for the new release
+- [ ] Copy and paste the reserved DOI to this issue
 - [ ] Update release date
-- [ ] Update version number (make sure there is a leading `v`, like `v1.5.7`)
-- [ ] Update version number in Title (use a leading `v` as well)
+- [ ] Update version number in Title (make sure there is a leading `v`, like `v1.5.7`)
+- [ ] Update version number (use a leading `v` as well)
 - [ ] Add as authors any new contributors who have added themselves to `AUTHORS.md` in the same order
 - [ ] Ensure that the first author is "Fatiando a Terra Project" and others are listed alphabetically by last name
 - [ ] Save the release draft
 
 ## Update the changelog
 
-- [ ] Generate a list of commits between the last release tag and now: `git log HEAD...v1.2.3 > changes.rst`
+- [ ] Generate a list of commits between the last release tag and now: `git log HEAD...v1.2.3 > changes.md`
 - [ ] Edit the list to remove any trivial changes (updates by the bot, CI updates, etc).
 - [ ] Organize the list into categories (breaking changes, deprecations, bug fixes, new features, maintenance, documentation).
 - [ ] Add a list of people who contributed to the release:
@@ -38,11 +38,11 @@ assignees: ''
   sort -rn contributors
   ```
 - [ ] Add the release date and Zenodo DOI badge to the top
-- [ ] Replace the PR numbers with links: ``sed --in-place "s,#\([0-9]\+\),\`#\1 <https://github.com/fatiando/PROJECT/pull/\1>\`__,g" changes.rst``
+- [ ] Replace the PR numbers with links: ``sed --in-place "s,#\([0-9]\+\),\[#\1\]\(https://github.com/fatiando/PROJECT/pull/\1\),g" changes.md``
 - [ ] Check that you changed the ``PROJECT`` placeholder when running the last command.
+- [ ] Make a RST copy of the changelog: `pandoc -s changes.md -o changes.rst --wrap=none`
 - [ ] Copy the changes to `doc/changes.rst`
-- [ ] Make a Markdown copy of the changelog: `pandoc -s changes.rst -o changes.md --wrap=none`
-- [ ] Add a link to the new release version documentation in `README.rst` and `doc/versions.rst` (if the file exists).
+- [ ] Add a link to the new release version documentation in `doc/versions.rst`.
 - [ ] Build and serve the docs locally with `make -C doc all serve` to check if the changelog looks well
 - [ ] Open a PR to update the changelog
 - [ ] Merge the PR
