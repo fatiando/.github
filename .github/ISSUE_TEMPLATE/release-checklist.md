@@ -30,6 +30,7 @@ assignees: ''
 - [ ] Generate a list of commits between the last release tag and now: `git log HEAD...v1.2.3 > changes.md`
 - [ ] Edit the list to remove any trivial changes (updates by the bot, CI updates, etc).
 - [ ] Organize the list into categories (breaking changes, deprecations, bug fixes, new features, maintenance, documentation).
+- [ ] (Optionally) Sort lists in chronological order (i.e. reverse their order). In Vim this can be done by selecting the lines in Visual mode and running `:!tac`.
 - [ ] Add a list of people who contributed to the release:
   ```bash
   export last_release="v1.2.3"
