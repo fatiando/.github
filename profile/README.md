@@ -31,13 +31,15 @@ General purpose:
 Geospatial data (including geophysical/geodetic data):
 
 - [**Verde**](https://github.com/fatiando/verde): Spatial data processing and interpolation with a sprinkling of machine learning.
+- [**Bordado**](https://github.com/fatiando/bordado): Create, manipulate, and split geographic coordinates.
 
 Geophysics:
 
 - [**Harmonica**](https://github.com/fatiando/harmonica): Forward modeling, inversion, and processing gravity and magnetic data.
 - [**Boule**](https://github.com/fatiando/boule): Reference ellipsoids and normal gravity for geodesy and geophysics.
 - [**Ensaio**](https://github.com/fatiando/ensaio): Practice datasets to probe your code.
-- [**Choclo**](https://github.com/fatiando/choclo): High-performance kernel functions for geophysical forward modeling. 
+- [**Choclo**](https://github.com/fatiando/choclo): High-performance kernel functions for geophysical forward modeling.
+- [**Magali**](https://github.com/fatiando/magali): Modeling and inversion of magnetic microscopy data.
 
 For developers:
 
