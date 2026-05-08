@@ -2,24 +2,21 @@
 <div align="center">
 <h1>Welcome to the Fatiando a Terra project!</h1>
 
-[About](https://www.fatiando.org/about)
+**[About](https://www.fatiando.org/about)**
 •
-[Install](https://www.fatiando.org/install)
+**[Install](https://www.fatiando.org/install)**
 •
-[Learn](https://www.fatiando.org/learn)
+**[Contact](https://www.fatiando.org/contact)**
 •
-[Contact](https://www.fatiando.org/contact)
-•
-[Community](https://www.fatiando.org/community)
-•
-[Cite](https://www.fatiando.org/cite)
+**[Support](https://www.fatiando.org/support)**
+
 
 </div>
 
 Fatiando provides **Python libraries** for data processing, modeling, and inversion across the **Geosciences**.
-Our software is built by a [**community** of geoscientists and software developers](https://www.fatiando.org/community/)
+Our software is built by a **community** of geoscientists and software developers
 with a passion for well-designed tools and helping our peers.
-All of our code is **free and open-source**, distributed under the permissive
+All of our code is **free and open-source**, distributed under the
 [BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause).
 
 ## Our tools
