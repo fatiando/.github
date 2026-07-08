@@ -20,7 +20,11 @@ close issues when this PR is merged.
 See https://github.com/blog/1506-closing-issues-via-pull-requests
 -->
 
-**Use of generative AI tools**
+**Use of generative AI tools:** Have you used generative AI tools, including chatbots and coding agents, to develop this pull request?
+
+- [ ] Yes.
+- [ ] No.
+
 <!--
 Contributors are required to disclose if they have used generative AI
 tools in the process of developing the Pull Request.
@@ -28,5 +32,3 @@ Find more information about acceptable usage of generative AI tools in
 Fatiando a Terra in the Contributing Guide:
 https://github.com/fatiando/community/blob/main/CONTRIBUTING.md#policy-on-usage-of-generative-ai-tools
 -->
-
-- [ ] Generative AI tools were used while developing this Pull Request.
