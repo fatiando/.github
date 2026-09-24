@@ -28,7 +28,6 @@ See https://github.com/blog/1506-closing-issues-via-pull-requests
 <!--
 Contributors are required to disclose if they have used generative AI
 tools in the process of developing the Pull Request.
-Find more information about our policy on generative AI tools in
-the following document:
+Find more information about our policy on generative AI tools in:
 https://github.com/fatiando/community/blob/main/AI.md
 -->
