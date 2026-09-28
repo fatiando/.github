@@ -21,10 +21,6 @@ All of our code is **free and open-source**, distributed under the
 
 ## Our tools
 
-General purpose:
-
-- [**Pooch**](https://github.com/fatiando/pooch): A friend to fetch your data files. 
-
 Geospatial data (including geophysical/geodetic data):
 
 - [**Verde**](https://github.com/fatiando/verde): Spatial data processing and interpolation with a sprinkling of machine learning.
@@ -37,6 +33,10 @@ Geophysics:
 - [**Ensaio**](https://github.com/fatiando/ensaio): Practice datasets to probe your code.
 - [**Choclo**](https://github.com/fatiando/choclo): High-performance kernel functions for geophysical forward modeling.
 - [**Magali**](https://github.com/fatiando/magali): Modeling and inversion of magnetic microscopy data.
+
+General purpose:
+
+- [**Pooch**](https://github.com/fatiando/pooch): A friend to fetch your data files. 
 
 For developers:
 
