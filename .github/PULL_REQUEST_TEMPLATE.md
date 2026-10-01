@@ -5,29 +5,17 @@ Thank you for contributing a pull request to Fatiando! 💖
 
 👆🏽 ABOVE: Describe the changes proposed and WHY you made them.
 
-👇🏽 BELOW: Link to any relevant issue or pull request.
+👇🏽 BELOW: Add information that helps us understand your contribution
 
-Please ensure you have taken a look at the CONTRIBUTING.md file
-in this repository (if available) and the general guidelines at
-https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
+Things to read:
+1. CONTRIBUTING.md for guidelines on development.
+2. AI.md for our policy on the use of generative AI in development.
 -->
 
-**Relevant issues/PRs:**
-<!--
-Example: "Fixes #1234" / "See also #345" / "Relevant to #111"
-Use keywords (e.g., Fixes, Closes) to create the links and automatically
-close issues when this PR is merged.
-See https://github.com/blog/1506-closing-issues-via-pull-requests
--->
+<!-- Example: "Fixes #1234" / "See also #345" / "Relevant to #111" -->
+**Relevant issues/PRs:** 
 
-**Use of generative AI tools:** Have you used generative AI tools, including chatbots and coding agents, to develop this pull request?
+**Have you used generative AI tools to develop this PR?**
 
-- [ ] Yes.
+- [ ] Yes (please explain below to what extent and how it was used).
 - [ ] No.
-
-<!--
-Contributors are required to disclose if they have used generative AI
-tools in the process of developing the Pull Request.
-Find more information about our policy on generative AI tools in:
-https://github.com/fatiando/community/blob/main/AI.md
--->
