@@ -45,7 +45,7 @@ assignees: ''
 - [ ] Check that you changed the ``PROJECT`` placeholder when running the last command.
 - [ ] Make a RST copy of the changelog: `pandoc -s changes.md -o changes.rst --wrap=none`
 - [ ] Copy the changes to `doc/changes.rst` (follow similar style as previous release)
-- [ ] Make sure to add the release date (and optionally the Zenodo DOI badge) to the top
+- [ ] Make sure to add the release date and the Zenodo DOI to the top
 - [ ] Add a link to the new release version documentation in `doc/versions.rst`.
 - [ ] Build and serve the docs locally with `make -C doc all serve` to check if the changelog looks well
 - [ ] Open a PR to update the changelog
