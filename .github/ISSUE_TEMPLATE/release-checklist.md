@@ -43,9 +43,9 @@ assignees: ''
   ```
 - [ ] Replace the PR numbers with links: ``sed --in-place "s,#\([0-9]\+\),\[#\1\]\(https://github.com/fatiando/PROJECT/pull/\1\),g" changes.md``
 - [ ] Check that you changed the ``PROJECT`` placeholder when running the last command.
+- [ ] Add the release date and the Zenodo DOI to the top
 - [ ] Make a RST copy of the changelog: `pandoc -s changes.md -o changes.rst --wrap=none`
 - [ ] Copy the changes to `doc/changes.rst` (follow similar style as previous release)
-- [ ] Make sure to add the release date and the Zenodo DOI to the top
 - [ ] Add a link to the new release version documentation in `doc/versions.rst`.
 - [ ] Build and serve the docs locally with `make -C doc all serve` to check if the changelog looks well
 - [ ] Open a PR to update the changelog
