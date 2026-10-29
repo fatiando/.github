@@ -27,22 +27,25 @@ assignees: ''
 
 ## Update the changelog
 
-- [ ] Generate a list of commits between the last release tag and now: `git log HEAD...v1.2.3 > changes.md`
+- [ ] Generate a list of changes since last release. Filter out the commits by dependabot. Format each line as a Markdown list item and sort in ascending chronological order:
+  ```bash
+  git log v0.3.2...main --pretty=format:"%s" --author='^(?!dependabot\[bot\]).*$' --perl-regexp | sed -e '%a\' | sed 's/^/- /' | tac > changes.md
+  ```
+  (The `sed -e '%a\'` is intended to add a new line character at the last line of the git log output).
 - [ ] Edit the list to remove any trivial changes (updates by the bot, CI updates, etc).
 - [ ] Organize the list into categories (breaking changes, deprecations, bug fixes, new features, maintenance, documentation).
-- [ ] (Optionally) Sort lists in chronological order (i.e. reverse their order). In Vim this can be done by selecting the lines in Visual mode and running `:!tac`.
-- [ ] Add a list of people who contributed to the release:
+- [ ] Add a list of people who contributed to the release under a new `"This release contains contributions of"` section:
   ```bash
   export last_release="v1.2.3"
   git shortlog HEAD...$last_release -sne > contributors
   git log HEAD...$last_release | grep "Co-authored-by" | sed 's/Co-authored-by://' | sed 's/^[[:space:]]*/ /' | sort | uniq -c | sort -nr | sed 's/^ //' >> contributors
   sort -rn contributors
   ```
-- [ ] Add the release date and Zenodo DOI badge to the top
 - [ ] Replace the PR numbers with links: ``sed --in-place "s,#\([0-9]\+\),\[#\1\]\(https://github.com/fatiando/PROJECT/pull/\1\),g" changes.md``
 - [ ] Check that you changed the ``PROJECT`` placeholder when running the last command.
 - [ ] Make a RST copy of the changelog: `pandoc -s changes.md -o changes.rst --wrap=none`
-- [ ] Copy the changes to `doc/changes.rst`
+- [ ] Copy the changes to `doc/changes.rst` (follow similar style as previous release)
+- [ ] Make sure to add the release date (and optionally the Zenodo DOI badge) to the top
 - [ ] Add a link to the new release version documentation in `doc/versions.rst`.
 - [ ] Build and serve the docs locally with `make -C doc all serve` to check if the changelog looks well
 - [ ] Open a PR to update the changelog
